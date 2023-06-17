@@ -140,8 +140,7 @@
 					href="https://github.com/StephDietz/nuxt-ai-chat"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
-					<img src="/github.svg" alt="GitHub Logo" class="h-4" />
-					<p class="ml-1">Source</p>
+
 				</a>
 			</div>
 		</div>
