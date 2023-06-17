@@ -55,7 +55,7 @@
 
 		<h1 class="my-8 text-5xl font-bold text-center text-black">Zero Exclusions .- Language Input Model</h1>
 		<div class="max-w-xl mx-auto">
-			<div class="bg-black rounded-md shadow h-[60vh] flex flex-col justify-between">
+			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
 				<div class="h-full overflow-auto chat-messages">
 					<div v-for="(message, i) in messages" :key="i" class="flex flex-col p-4">
 						<div v-if="message.role === 'AI'" class="pr-8 mr-auto">
@@ -132,10 +132,15 @@
 				</a>
 				.
 			</div>
+			<div class="flex flex-col items-center justify-center">
+				<a href="https://vercel.com">
+					<img src="/vercel.svg" alt="Vercel Logo" class="h-4 my-2 text-white" />
+				</a>
 				<a
 					href="https://github.com/StephDietz/nuxt-ai-chat"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
+
 				</a>
 			</div>
 		</div>
