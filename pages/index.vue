@@ -1,7 +1,7 @@
 <script setup>
 	const messages = ref([
 		{
-			role: 'ZELIM',
+			role: 'AI',
 			message: 'Hello! How can I help you?'
 		}
 	]);
@@ -53,7 +53,18 @@
 <template>
 	<div class="max-w-xl mx-auto text-black">
 
-		<h1 class="my-8 text-5xl font-bold text-center text-black">Zero Exclusions. Language Input Model.</h1>
+		<a
+			href="https://vercel.com/templates/next.js/blob-sveltekit"
+			class="flex justify-center px-10 py-2 mx-auto space-x-1 text-sm font-medium text-center text-gray-600 transition-all rounded-full shadow-sm group bg-white/30 ring-1 ring-gray-900/5 hover:shadow-lg active:shadow-sm"
+		>
+			beta (v06.2023)
+		</a>
+
+
+
+
+
+		<h1 class="my-8 text-5xl font-bold text-center text-black">Zero Exclusions - Language Input Model</h1>
 		<div class="max-w-xl mx-auto">
 			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
 				<div class="h-full overflow-auto chat-messages">
